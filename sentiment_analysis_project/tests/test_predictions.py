@@ -10,7 +10,6 @@ sys.path.append(str(root))
 import pytest
 import numpy as np
 from sklearn.metrics import mean_squared_error, r2_score
-
 from sentiment_analysis_model.predict import analyze_sentiment
 
 @pytest.fixture
