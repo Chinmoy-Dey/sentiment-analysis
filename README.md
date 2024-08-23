@@ -18,6 +18,7 @@ $ python3 -m build
 
 # How to build Docker image 
 ```
+$ sudo apt install docker.io
 $ sudo dockerd &
  
 $ docker build -t <yourImageName> -f <yourDockerfileName> .
